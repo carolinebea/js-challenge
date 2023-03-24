@@ -19,7 +19,7 @@ function getPassOption() {
 
   }
   
-
+// I was helped by my tutor, Scott Everett, to get the bulk of these lines of code. 23-60.
   var hasUpper = confirm("Include upper case?")
   var hasLower = confirm("Include lower case?")
   var hasSpec = confirm("Include special characters?")
@@ -59,6 +59,8 @@ function generatePassword() {
   }
   console.log(possibleCharacters)
 
+
+// I was helped by my classmate, Juan Martinez, during a study group session to get these lines of code. 64-80
   for (var i = 0; i < option.length; i++) {
     finalPass += possibleCharacters [Math.floor(Math.random() * possibleCharacters.length)]
   }
@@ -78,6 +80,8 @@ function writePassword() {
   passwordText.value = password;
 
 }
+
+
 
   
 // Add event listener to generate button
